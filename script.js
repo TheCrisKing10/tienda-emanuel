@@ -29,6 +29,7 @@ let products = [
     { name: "Pall Mall Cereza 20's", price: 90.90, piecesPerPackage: 10, image: "(cigarros) pall mall cereza.webp", calcType: "multiply", unitLabel: "paquete", category: "Cigarros" },
     { name: "Pall Mall Manzana 20's", price: 90.90, piecesPerPackage: 10, image: "(cigarros) pall mall manzana.webp", calcType: "multiply", unitLabel: "paquete", category: "Cigarros" },
     { name: "Pall Mall Platano 20's", price: 90.90, piecesPerPackage: 10, image: "(cigarros) pall mall platano.webp", calcType: "multiply", unitLabel: "paquete", category: "Cigarros" },
+    { name: "Pall Mall Mango 20's", price: 90.90, piecesPerPackage: 10, image: "(cigarros) pall mall mango.webp", calcType: "multiply", unitLabel: "paquete", category: "Cigarros" },
     { name: "Pall Mall Iceland 20's", price: 69.12, piecesPerPackage: 10, image: "(cigarros) pall mall iceland.webp", calcType: "multiply", unitLabel: "paquete", category: "Cigarros" },
     
     { name: "Shots 14's", price: 44.09, piecesPerPackage: 10, image: "(cigarros) shots 14.webp", calcType: "multiply", unitLabel: "paquete", category: "Cigarros" },
@@ -40,10 +41,10 @@ let products = [
     // ========================
     // 🥤 CATEGORÍA: COCA-COLA
     // ========================
-    { name: "Coca-Cola 3L Ret (6 pack) Preciada", price: 178.00, piecesPerPackage: 6, image: "(coca-cola) coca-cola 3l ret.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
-    { name: "Coca-Cola 1.25L Ret (8 pack) Preciada", price: 160.00, piecesPerPackage: 8, image: "(coca-cola) coca-cola 1.25l ret.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
+    { name: "Coca-Cola 3L Ret (6 pack)", price: 178.00, piecesPerPackage: 6, image: "(coca-cola) coca-cola 3l ret.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
+    { name: "Coca-Cola 1.25L Ret (8 pack)", price: 160.00, piecesPerPackage: 8, image: "(coca-cola) coca-cola 1.25l ret.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     { name: "Coca-Cola 500ml Ret (24 pack)", price: 339.00, piecesPerPackage: 24, image: "(coca-cola) coca-cola 500ml.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
-    { name: "Valle Frut 2.5L Ret (8 pack)", price: 259.00, piecesPerPackage: 8, image: "(coca-cola) valle frut 2.5l ret.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
+    
     { name: "Coca-Cola 3L (4 pack)", price: 156.00, piecesPerPackage: 4, image: "(coca-cola) coca-cola 3l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     { name: "Coca-Cola 1.75L (4 pack)", price: 123.00, piecesPerPackage: 4, image: "(coca-cola) coca-cola 1.75l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     { name: "Coca-Cola 1.35L (6 pack)", price: 158.01, piecesPerPackage: 6, image: "(coca-cola) coca-cola 1.35l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
@@ -70,13 +71,14 @@ let products = [
     { name: "Valle Frut 3L (4 pack)", price: 140.00, piecesPerPackage: 4, image: "(coca-cola) valle frut 3l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
 
     { name: "Delaware Punch 2L (4 pack)", price: 98.00, piecesPerPackage: 4, image: "(coca-cola) delaware 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
+    { name: "Fanta 2L (4 pack)", price: 98.00, piecesPerPackage: 4, image: "(coca-cola) fanta 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     { name: "Fresca 2L (4 pack)", price: 98.00, piecesPerPackage: 4, image: "(coca-cola) fresca 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     { name: "Fresca 2L Fusion (4 pack)", price: 98.00, piecesPerPackage: 4, image: "(coca-cola) fresca fusion 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     { name: "Sidral Mundet 2L (4 pack)", price: 98.00, piecesPerPackage: 4, image: "(coca-cola) sidral mundet 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
-    { name: "Mundet Ameyal 2L (4 pack)", price: 98.00, piecesPerPackage: 4, image: "(coca-cola) sidral ameyal 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
-    { name: "Mundet Manzana Durazno 2L (4 pack)", price: 98.00, piecesPerPackage: 4, image: "(coca-cola) sidral manzana durazno 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
+    { name: "Mundet Ameyal 2L (4 pack)", price: 83.00, piecesPerPackage: 4, image: "(coca-cola) sidral ameyal 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
+    { name: "Mundet Manzana Durazno 2L (4 pack)", price: 83.00, piecesPerPackage: 4, image: "(coca-cola) sidral manzana durazno 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     { name: "Sprite 2L (4 pack)", price: 98.00, piecesPerPackage: 4, image: "(coca-cola) sprite 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
-    { name: "Valle Frut 2L (4 pack)", price: 98.00, piecesPerPackage: 4, image: "(coca-cola) valle frut 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
+    { name: "Valle Frut 2L (8 pack)", price: 196.00, piecesPerPackage: 4, image: "(coca-cola) valle frut 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     
     { name: "Delaware Punch 600ml (12 pack)", price: 210.00, piecesPerPackage: 12, image: "(coca-cola) delaware 600ml.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     { name: "Fanta 600m ml (12 pack)", price: 211.00, piecesPerPackage: 12, image: "(coca-cola) fanta 600ml.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
@@ -98,6 +100,8 @@ let products = [
     { name: "Predator Purple 473ml (6 pack)", price: 110.00, piecesPerPackage: 6, image: "(coca-cola) predator purple 473ml.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     { name: "Predator Red 473ml (6 pack)", price: 110.00, piecesPerPackage: 6, image: "(coca-cola) predator red 473ml.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     { name: "Predator Blue 473ml (6 pack)", price: 110.00, piecesPerPackage: 6, image: "(coca-cola) predator blue 473ml.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
+
+    { name: "Agua Ciel 10L (1 pack)", price: 34.00, piecesPerPackage: 1, image: "(coca-cola) agua ciel 10l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     
     { name: "Santa Clara Entera 1L (6 pack)", price: 169.00, piecesPerPackage: 6, image: "(coca-cola) santa clara entera 1l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
     { name: "Santa Clara Deslactosada 1L (6 pack)", price: 174.00, piecesPerPackage: 6, image: "(coca-cola) santa clara deslactosada 1l.webp", calcType: "divide", unitLabel: "pieza", category: "Coca-Cola" },
@@ -113,26 +117,98 @@ let products = [
     // ========================
     // 🥤 CATEGORÍA: JARRITOS
     // ========================
-    { name: "Red Cola 3L (8 pack)", price: 221.00, piecesPerPackage: 8, image: "(jarritos) red cola 3l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Red Cola 2L (8 pack)", price: 166.00, piecesPerPackage: 8, image: "(jarritos) red cola 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Red Cola 600ml (24 pack)", price: 306.00, piecesPerPackage: 24, image: "(jarritos) red cola 600ml.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Jarritos Limón (8 pack)", price: 151.00, piecesPerPackage: 8, image: "(jarritos) jarritos limon 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Jarritos Mandarina (8 pack)", price: 151.00, piecesPerPackage: 8, image: "(jarritos) jarritos mandarina 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Jarritos Manzana (8 pack)", price: 151.00, piecesPerPackage: 8, image: "(jarritos) jarritos manzana 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Jarritos Piña (8 pack)", price: 151.00, piecesPerPackage: 8, image: "(jarritos) jarritos piña 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Jarritos Tamarindo (8 pack)", price: 151.00, piecesPerPackage: 8, image: "(jarritos) jarritos tamarindo 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Jarritos Toronja (8 pack)", price: 151.00, piecesPerPackage: 8, image: "(jarritos) jarritos toronja 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Jarritos Tutifruti (8 pack)", price: 151.00, piecesPerPackage: 8, image: "(jarritos) jarritos tutifruti 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Jarritos Uva (8 pack)", price: 151.00, piecesPerPackage: 8, image: "(jarritos) jarritos uva 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Mineralita 2L (8 pack)", price: 96.00, piecesPerPackage: 8, image: "(jarritos) mineralita 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Mineralita 600ml (24 pack)", price: 173.00, piecesPerPackage: 24, image: "(jarritos) mineralita 600ml.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Skarch 10L (3 pack)", price: 87.00, piecesPerPackage: 3, image: "(jarritos) skarch 10l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Skarch Sabor 1.5L (12 pack)", price: 136.00, piecesPerPackage: 12, image: "(jarritos) skarch sabores 1.5l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Skarch Natural 1.5L (12 pack)", price: 104.00, piecesPerPackage: 12, image: "(jarritos) skarch 1.5l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Skarch Natural 1L (12 pack)", price: 100.00, piecesPerPackage: 12, image: "(jarritos) skarch 1l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Skarch Natural 600ml (24 pack)", price: 136.00, piecesPerPackage: 24, image: "(jarritos) skarch 600ml.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Red Cola 3L (8 pack)", price: 249.00, piecesPerPackage: 8, image: "(jarritos) red cola 3l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Red Cola 2L (8 pack)", price: 187.00, piecesPerPackage: 8, image: "(jarritos) red cola 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Red Cola 600ml (24 pack)", price: 324.00, piecesPerPackage: 24, image: "(jarritos) red cola 600ml.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+
+    { name: "Jarritos 2L Limón (8 pack)", price: 179.00, piecesPerPackage: 8, image: "(jarritos) jarritos limon 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Jarritos 2L Mandarina (8 pack)", price: 179.00, piecesPerPackage: 8, image: "(jarritos) jarritos mandarina 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Jarritos 2L Manzana (8 pack)", price: 179.00, piecesPerPackage: 8, image: "(jarritos) jarritos manzana 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Jarritos 2L Piña (8 pack)", price: 179.00, piecesPerPackage: 8, image: "(jarritos) jarritos piña 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Jarritos 2L Tamarindo (8 pack)", price: 179.00, piecesPerPackage: 8, image: "(jarritos) jarritos tamarindo 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Jarritos 2L Toronja (8 pack)", price: 179.00, piecesPerPackage: 8, image: "(jarritos) jarritos toronja 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Jarritos 2L Tutifruti (8 pack)", price: 179.00, piecesPerPackage: 8, image: "(jarritos) jarritos tutifruti 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Jarritos 2L Uva (8 pack)", price: 179.00, piecesPerPackage: 8, image: "(jarritos) jarritos uva 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Jarritos 600ml Surtido (24 pack)", price: 304.00, piecesPerPackage: 24, image: "", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+
+    { name: "Mineralita 2L (8 pack)", price: 108.00, piecesPerPackage: 8, image: "(jarritos) mineralita 2l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Mineralita 600ml (24 pack)", price: 212.00, piecesPerPackage: 24, image: "(jarritos) mineralita 600ml.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+
+    { name: "Skarch 10L (3 pack)", price: 92.00, piecesPerPackage: 3, image: "(jarritos) skarch 10l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Skarch Sabor 1.5L (12 pack)", price: 134.00, piecesPerPackage: 12, image: "(jarritos) skarch sabores 1.5l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Skarch Natural 1.5L (12 pack)", price: 122.00, piecesPerPackage: 12, image: "(jarritos) skarch 1.5l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Skarch Natural 1L (12 pack)", price: 120.00, piecesPerPackage: 12, image: "(jarritos) skarch 1l.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Skarch Natural 600ml (24 pack)", price: 170.00, piecesPerPackage: 24, image: "(jarritos) skarch 600ml.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
     { name: "Skarch Natural 330ml (24 pack)", price: 85.00, piecesPerPackage: 24, image: "(jarritos) skarch 330ml.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
-    { name: "Leche Sabrolé 900ml (6 pack)", price: 79.00, piecesPerPackage: 6, image: "(jarritos) leche sabrolé 900ml.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    
+    { name: "Leche Sabrolé 900ml (6 pack)", price: 84.50, piecesPerPackage: 6, image: "(jarritos) leche sabrolé 900ml.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+    { name: "Leche Sabrolé 900ml (6 pack)", price: 85.00, piecesPerPackage: 6, image: "(jarritos) leche sabrolé 900ml.webp", calcType: "divide", unitLabel: "pieza", category: "Jarritos" },
+
+    // ========================
+    // 🥤 CATEGORÍA: SABRITAS
+    // ========================
+
+    { name: "Sabritas Original", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Sabritas Limón", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Sabritas Adobadas", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Sabritas Habanero", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Sabritas Especias", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Sabritas Flamint Hot", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Sabritas Receta Crujiente", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Ruffles Original", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Ruffles Queso", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Ruffles Jalapeño", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Ruffles Salsa Roja", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Doritos Nacho", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Doritos Pizzerola", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Doritos Incógnita", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Doritos Diablo", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Doritos 3D", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Doritos Flamint Hot", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Doritos Dinamita Chile Limón", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Doritos Dinamita Flamint Hot", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Tostitos Salsa Verde", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Tostitos Flamint Hot", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Rancheritos", price: 15.41, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Crujitos", price: 15.41, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Fritos Sal Limón", price: 15.41, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Fritos Chile Limón", price: 15.41, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Fritos Chorizo Chipotle", price: 15.41, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Churrumais Original", price: 14.55, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Churrumais Flamint Hot", price: 14.55, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Cheetos Torciditos", price: 14.55, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Cheetos Jalapeño", price: 14.55, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Cheetos Flamint Hot", price: 14.55, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Cheetos Bolitas", price: 14.55, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Cheetos Poffs", price: 14.55, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Cheetos Palomita", price: 14.55, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Cheetos Colmillo", price: 14.55, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Paketaxo Naranja", price: 18.84, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Paketaxo Azúl", price: 18.84, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Paketaxo Morado", price: 18.84, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Paketaxo Verde", price: 18.84, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Bolzaza Sabritas Receta Crujiente", price: 21.35, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Bolzaza Sabritas Original", price: 21.35, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Bolzaza Ruffles Queso", price: 21.35, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Bolzaza Doritos Nacho", price: 21.35, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Bolzaza Cheetos Torciditos", price: 21.35, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Bolzaza Cheetos Flamint Hot ", price: 21.35, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Sabritas Original Grande", price: 47.20, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Paketaxo Grande Naranja", price: 47.20, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Paketaxo Grande Azúl", price: 47.20, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Paketaxo Grande Morado", price: 47.20, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Paketaxo Grande Verde", price: 47.20, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Valentones", price: 32.00, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    { name: "Karate Kat Mag", price: 17.12, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+
+    // { name: "", price: 1.00, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    // { name: "", price: 1.00, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    // { name: "", price: 1.00, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    // { name: "", price: 1.00, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    // { name: "", price: 1.00, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    // { name: "", price: 1.00, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    // { name: "", price: 1.00, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
+    // { name: "", price: 1.00, piecesPerPackage: 0, image: "", calcType: "divide", unitLabel: "pieza", category: "Sabritas" },
 ];
 
 // ==========================
@@ -297,22 +373,49 @@ function generateTicket() {
     ticketContainer.style.margin = '20px auto';
     ticketContainer.style.boxShadow = '0 0 10px rgba(0,0,0,0.2)';
 
-    const sortedCartForTicket = cart.sort((a, b) => a.id - b.id);
-    
+    // 1. Agrupar los productos por categoría
+    const categoriesGroup = {};
+    cart.forEach(item => {
+        if (!categoriesGroup[item.category]) {
+            categoriesGroup[item.category] = [];
+        }
+        categoriesGroup[item.category].push(item);
+    });
+
+    // 2. Construir el contenido del ticket iterando por categorías
     let ticketContent = `
         <h2 style="text-align: center; margin-bottom: 1rem; text-transform: uppercase; font-size: 1.2rem;">Pedido</h2>
         <p style="text-align: center; font-size: 0.8rem; margin-bottom: 1rem;">Ticket de Compra</p>
         <div style="border-top: 1px dashed #000; padding-top: 1rem;">
-            ${sortedCartForTicket.map(item => `
-                <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
-                    <img src="imagenes/${item.image}" alt="${item.name}" style="width: 40px; height: 40px; object-fit: cover; border-radius: 4px;">
-                    <div style="flex-grow: 1;">
-                        <p style="font-weight: bold; margin: 0;">${item.name}</p>
-                        <p style="margin: 0; font-size: 0.9rem;">Cantidad: ${item.quantity} x $${formatPrice(item.price)}</p>
-                    </div>
-                    <p style="font-weight: bold; margin: 0;">$${formatPrice(item.price * item.quantity)}</p>
+    `;
+
+    for (const category in categoriesGroup) {
+        // Ordenar los productos dentro de la categoría por ID (opcional, mantiene tu lógica)
+        categoriesGroup[category].sort((a, b) => a.id - b.id);
+
+        // Añadir el separador/título de la categoría
+        ticketContent += `
+            <div style="margin-top: 1rem; margin-bottom: 0.5rem; border-bottom: 1px solid #000; padding-bottom: 2px;">
+                <span style="font-weight: bold; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px;">
+                    ⚫ ${category}
+                </span>
+            </div>
+        `;
+
+        // Añadir los productos pertenecientes a esta categoría
+        ticketContent += categoriesGroup[category].map(item => `
+            <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                <img src="imagenes/${item.image}" alt="${item.name}" style="width: 40px; height: 40px; object-fit: cover; border-radius: 4px;">
+                <div style="flex-grow: 1;">
+                    <p style="font-weight: bold; margin: 0;">${item.name}</p>
+                    <p style="margin: 0; font-size: 0.9rem;">Cantidad: ${item.quantity} x $${formatPrice(item.price)}</p>
                 </div>
-            `).join('')}
+                <p style="font-weight: bold; margin: 0;">$${formatPrice(item.price * item.quantity)}</p>
+            </div>
+        `).join('');
+    }
+
+    ticketContent += `
         </div>
         <div style="border-top: 1px dashed #000; margin-top: 1rem; padding-top: 1rem;">
             <p style="display: flex; justify-content: space-between; font-weight: bold; font-size: 1.2rem;">
@@ -321,6 +424,7 @@ function generateTicket() {
         </div>
         <p style="text-align: center; margin-top: 1rem; font-size: 0.8rem;">¡Gracias por tu compra!</p>
     `;
+    
     ticketContainer.innerHTML = ticketContent;
     document.body.appendChild(ticketContainer);
 
